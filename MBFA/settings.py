@@ -1,5 +1,4 @@
-
-import key
+from .key import *
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
