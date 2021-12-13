@@ -1,9 +1,11 @@
 from django.contrib import admin
 from django.urls import path
-from MBFA.views import home, about
+from MBFA.views import home, statistics, improvement, about
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', home),
-    path('about/', about)
+    path('statistics', statistics),
+    path('improvement', improvement),
+    path('about/', about),
 ]
