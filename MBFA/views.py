@@ -11,3 +11,6 @@ def improvement(request):
 
 def about(request):
     return render(request, 'about.html')
+
+def regist(request):
+    return render(request, 'regist.html')

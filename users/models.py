@@ -13,7 +13,7 @@ class Users(models.Model):
     education = models.CharField("Образование", max_length=100)
     profession = models.CharField("Занимаемая должность", max_length=50)
     is_doctor = models.BooleanField(default=False)
-    id_cards = models.AutoField()
+    id_cards = models.IntegerField()
 
     def __str__(self):
         return self.first_name
@@ -28,5 +28,5 @@ class Cards(models.Model):
 
     id_cards = models.ForeignKey(Users, verbose_name='Номер карточки', on_delete=models.SET_NULL, null=True)
     # id_tests = models.IntegerField(auto_created=)
-    # visites
+    # visites =
     # diagnosis
