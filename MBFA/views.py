@@ -14,3 +14,9 @@ def about(request):
 
 def regist(request):
     return render(request, 'regist.html')
+
+def example(request):
+    return render(request, 'example.html')
+
+def example_1(request):
+    return render(request, 'example_1.html')

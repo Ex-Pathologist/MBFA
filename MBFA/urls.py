@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-from MBFA.views import home, statistics, improvement, about, regist
+from MBFA.views import home, statistics, improvement, about, regist, example, example_1
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -9,4 +9,6 @@ urlpatterns = [
     path('improvement', improvement),
     path('about/', about),
     path('regist/', regist),
+    path('example/', example),
+    path('example_1/', example_1),
 ]
