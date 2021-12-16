@@ -20,3 +20,9 @@ def example(request):
 
 def example_1(request):
     return render(request, 'example_1.html')
+
+def med_card(request):
+    return render(request, 'med_card.html')
+
+def med_card_dr(request):
+    return render(request, 'med_card_dr.html')
