@@ -30,3 +30,4 @@ class Cards(models.Model):
     # id_tests = models.IntegerField(auto_created=)
     # visites =
     # diagnosis
+# модели по анализам, по карте, авторизация роль пациента роль врача, роль фармацевта, роль ребёнка!!!!!!!!
